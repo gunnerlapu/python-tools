@@ -16,7 +16,7 @@ def init_conn(service,date):
 
    return filename
 
-
+# TODO: split efficiently
 def max_avg_response(c_log):
    cnt_res = 0
    max_res = 0
