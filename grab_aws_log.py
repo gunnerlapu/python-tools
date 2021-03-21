@@ -4,6 +4,7 @@ import sys
 import boto3
 import subprocess
 
+# TODO: Update s3 function
 #initiate connection to bucket, using service name and date as parameters
 def init_conn(service,date):
 
