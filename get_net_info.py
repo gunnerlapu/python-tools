@@ -11,6 +11,8 @@ def open_l(filename):
 
   return lines
 
+
+# Update subprocess
 def check_host(host):
   print(host)
   p = subprocess.Popen(['ping', '-c', '2', host  ], stdin = subprocess.PIPE, stdout= subprocess.PIPE, stderr=subprocess.PIPE)
